@@ -1,5 +1,4 @@
-
-body { 
+img.bg { 
     background-image: url('cp.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
