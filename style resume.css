@@ -1,0 +1,160 @@
+
+body { 
+    background-image: url('file:///C:/Users/Administrator/OneDrive/Documents/imd318%20website%20resume/cp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    }
+
+h1 {
+    font-family: Verdana;
+    background-color:	#834333;
+    color: whitesmoke;
+    padding: 20px;
+    animation: gradientText 5s ease-in-out infinite;
+    }
+    @keyframes gradientText {
+        0% {
+            color: #834333;
+        }
+
+        25% {
+            color: whitesmoke;
+        }
+
+        50% {
+            color: #834333;
+        }
+
+        100% {
+            color: whitesmoke;
+        }
+    }
+
+p {
+    font-size: 20px;
+    font-family:cursive;
+    text-align: center;
+    color: 	#6E260E;
+    font-size:115%;
+    }     
+
+#button-container {
+    display:inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    }
+
+#name {
+     font-family: vivaldi;
+    float: right;
+    margin-top: 10px;
+    margin-right: 4%;
+    }
+
+a {
+    color: white;
+    text-decoration: none;
+    }
+
+
+.glow {
+    font-size: 20px;
+    color: #6E260E;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+          
+@keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #6E260E, 0 0 30px #6E260E, 0 0 40px #6E260E, 0 0 50px #fff;
+        }
+    to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 50px #6E260E;
+        }
+    }
+    
+
+.btn-group button {
+    background-color: #a67b5b; 
+    border: 1px solid ; 
+    color: #6E260E; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    }
+
+.button1 {
+    background-color: #a67b5b; 
+    color: #6E260E; 
+    border: 7px solid ;
+    }
+
+.button1:hover {
+    background-color: whitesmoke;
+    color: #834333;
+    }
+
+.button2 {
+    background-color: #a67b5b; 
+    color: #6E260E; 
+    border: 7px solid ;
+    }
+
+.button2:hover {
+    background-color: whitesmoke;
+    color: #834333;
+    }
+
+.button3 {
+    background-color: #a67b5b; 
+    color: #6E260E; 
+    border: 7px solid;
+    }
+
+.button3:hover {
+    background-color: whitesmoke;
+    color: #834333;
+    }
+
+.button4 {
+    background-color: #a67b5b; 
+    color: #6E260E; 
+    border: 7px solid;
+    }
+
+.button4:hover {
+    background-color: whitesmoke;
+    color: #834333;
+    }
+
+.button5 {
+    background-color: #a67b5b; 
+    color: #6E260E; 
+    border: 7px solid;
+    }
+
+.button5:hover {
+    background-color: whitesmoke;
+    color: #834333;
+    }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
