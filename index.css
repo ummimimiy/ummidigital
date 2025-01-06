@@ -1,13 +1,37 @@
-body {
-  background-image: url('https://plus.unsplash.com/premium_photo-1713539604721-17578c76cfe1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlsbSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  text align: center;
-  }
+body { 
+    background-image: url('https://plus.unsplash.com/premium_photo-1673152978927-b090ef711093?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dmludGFnZSUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    }
+
+
+    .hero-image {
+        position: relative;
+        text-align: center;
+        color: black;
+        font-family: "Arial Black", sans-serif;
+        font-size: 10px;
+    }
+    
+    .hero-image img {
+        width: 100%;  
+        height: 300px;  
+        object-fit: cover; 
+        display: block;
+    }
+    
+    .hero-image h2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        color: white;  /* Adjust the color for visibility */
+        padding: 10px;
+        font-size: 24px; /* Adjust font size as needed */
+    }
 
 h1 {
     font-family: Verdana;
