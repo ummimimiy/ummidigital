@@ -5,6 +5,11 @@ body {
     background-size: cover;
     text-align: center;
     }
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 h1 {
     font-family: Verdana;
