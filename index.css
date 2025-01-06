@@ -22,7 +22,7 @@ body {
         display: block;
     }
     
-    .hero-image h2 {
+     .hero-image h2 {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -35,17 +35,29 @@ body {
         white-space: nowrap;
         border-right: 4px solid white; /* Simulates the cursor */
         width: 0; /* Initially set width to 0 for the typewriter effect */
-        animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
-    }
+        animation: typewriter 2s steps(13) infinite alternate,
+        blink 800ms steps(13) infinite normal;
+    border-right: 5px solid black;
+}
     
-    @keyframes typing {
-        from { width: 0; }
-        to { width: 100%; }
+    @keyframes typewriter {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 50%;
+        }
     }
-    
-    @keyframes blink-caret {
-        from, to { border-color: transparent; }
-        50% { border-color: white; }
+
+    @keyframes blink {
+        from {
+            border-color: black;
+        }
+
+        to {
+            border-color: transparent;
+        }
     }
 
 h1 {
