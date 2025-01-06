@@ -28,9 +28,24 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         margin: 0;
-        color: white;  /* Adjust the color for visibility */
+        color: white;  
         padding: 10px;
-        font-size: 24px; /* Adjust font size as needed */
+        font-size: 24px; 
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 4px solid white; /* Simulates the cursor */
+        width: 0; /* Initially set width to 0 for the typewriter effect */
+        animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
+    }
+    
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+    
+    @keyframes blink-caret {
+        from, to { border-color: transparent; }
+        50% { border-color: white; }
     }
 
 h1 {
