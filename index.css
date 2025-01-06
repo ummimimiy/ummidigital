@@ -1,4 +1,5 @@
-.bg { 
+body { 
+    background image: url('https://plus.unsplash.com/premium_photo-1713539604721-17578c76cfe1?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlsbSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
