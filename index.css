@@ -211,3 +211,20 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     }
+
+   .clock-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clock {
+        font-size: 40px;
+        color: #fff;
+        background: linear-gradient(135deg, #a67b5b, #6E260E);
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        width: 200px;
+        margin: 0 auto;
+    }
