@@ -37,13 +37,13 @@ h1 {
     background: #834333;
     padding: 20px;
     border-radius: 10px;
-    text-align: left; /* Mengubah menjadi kiri untuk tata letak lebih baik */
+    text-align: left; 
 }
 
 .container img, .text-container {
     width: 100%;
-    max-width: 450px; /* Tentukan lebar maksimum yang sama */
-    flex: 1; /* Memberikan kedua elemen ruang yang sama */
+    max-width: 450px; 
+    flex: 1;
     height: auto;
     border-radius: 10px;
     margin: 10px;
@@ -71,7 +71,7 @@ h1 {
     margin: 5px 2px;
     border-radius: 50%;
     display: inline-block;
-    line-height: 50px; /* Untuk menyejajarkan teks secara vertikal */
+    line-height: 50px; 
 }
 
 .fa:hover {
@@ -148,6 +148,7 @@ a {
         <img src="MIY.jpg" alt="Contact Image">
 
         <div class="text-container">
+            <form onsubmit="return handleSend(event)" action="mailto:kamalinasamsuri04@gmail.com" method="post" enctype="text/plain">
             <h2>Let's Get in Touch!</h2>
             <p>Feel free to reach out to me for any inquiries.</p>
         <address>
@@ -170,8 +171,21 @@ a {
         </address>
         </div>
     </div>
+          <div id="notification" class="notification">Thank you! Your message has been sent ><. </div>
 
-    
+     <script>
+
+        function handleSend(event) {
+            event.preventDefault();
+            const notification = document.getElementById('notification');
+            notification.style.display = 'block';
+            setTimeout(() => {
+                notification.style.display = 'none';
+                document.querySelector('form').submit();
+            }, 3000);
+            return false;
+        }
+    </script>
 
     <div id="footer">
         &copy; 2024 UMMI. 
